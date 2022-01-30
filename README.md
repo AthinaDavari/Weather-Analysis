@@ -1,37 +1,14 @@
----
-jupyter:
-  kernelspec:
-    display_name: Python 3
-    language: python
-    name: python3
-  language_info:
-    codemirror_mode:
-      name: ipython
-      version: 3
-    file_extension: .py
-    mimetype: text/x-python
-    name: python
-    nbconvert_exporter: python
-    pygments_lexer: ipython3
-    version: 3.9.1
-  nbformat: 4
-  nbformat_minor: 2
----
-
-::: {.cell .markdown}
 # Exploring the Weather in Athens
 
 In this assignment you will explore the weather in Athens over a period
 of more than 50 years.
 
-------------------------------------------------------------------------
+> Panos Louridas, Associate Professor \
+> Department of Management Science and Technology \
+> Athens University of Economics and Business \
+>  <louridas@aueb.gr>
 
-> Panos Louridas, Associate Professor `<br />`{=html} Department of
-> Management Science and Technology `<br />`{=html} Athens University of
-> Economics and Business `<br />`{=html} <louridas@aueb.gr>
-:::
 
-::: {.cell .markdown}
 ## Questions
 
 ### Q1: Obtain the Data
@@ -54,9 +31,7 @@ will be obtained from two sources:
     available from
     <https://data.hellenicdataservice.gr/dataset/66e1c19a-7b0e-456f-b465-b301a1130e3f>;
     this dataset covers only the period from 2010-2019.
-:::
 
-::: {.cell .markdown}
 ### Q2: Deviation of Summer Temperatures
 
 The Hellenic National Meteorological Service has published a report on
@@ -69,11 +44,8 @@ You will create your own version of the graph, using a baseline of
 1974-1999. Your graph should look like the one below. The line that runs
 through the graph is the 10 years rolling avarege of the deviation from
 the mean. What is your intepretation of the figure?
+<img align="left" src="media/mean_summer_temperature_difference.svg">
 
-[Mean Summer Temperature Deviation]{.image}
-:::
-
-::: {.cell .markdown}
 ### Q3: Evolution of Daily Temperatures
 
 You will get the average temperate for each year for the full period
@@ -87,11 +59,8 @@ On that plot you will overlay a line showing the average daily
 temperature for the baseline period of 1974-1999 (that is the black
 line). The line will also be smoothed usng a 30 years rolling average.
 What is your interpretation of the figure?
+<img align="left" src="media/daily_average_temperature.svg">
 
-[Daily Average Temperature per Year]{.image}
-:::
-
-::: {.cell .markdown}
 ### Q4: Extreme Temperature Events
 
 Another mesure used by climatologists is the number of extreme events.
@@ -107,11 +76,8 @@ year. The gray line in the middle is the average percentage of extreme
 tempearture events of the baseline. The colour blue is used for those
 years where the percentage is below the baseline; otherwise the colour
 is orange. What is your interpretation of the graph?
+<img align="left" src="media/extreme_temperature_events.svg">
 
-[Extreme Temperature Events]{.image}
-:::
-
-::: {.cell .markdown}
 ### Q5: Precipitation
 
 Continuing the thread on extreme events, another consideration is
@@ -125,31 +91,4 @@ getting rain in more concentrated bursts. You will then create a plot
 showing the ratio of rainfall over rainy days over the years. On the
 plot you will overlay the 10 years rolling average. The plot should be
 similar to the one below. What is your interpretation of the plot?
-
-[Yearly Precipition Concentration]{.image}
-:::
-
-::: {.cell .markdown}
-## Submission Instructions
-
-You will submit a Jupyter notebook that will contain all your code and
-analysis. Ensure that the notebook will run correctly in a computer that
-is not your own. That means, among other things, that it does not
-contain absolute paths. Remember that a notebook is not a collection of
-code cells thrown together; it should contain as much text as necessary
-for a person to understand what you are doing.
-:::
-
-::: {.cell .markdown}
-## Honor Code
-
-You understand that this is an individual assignment, and as such you
-must carry it out alone. You may seek help on the Internet, by Googling
-or searching in StackOverflow for general questions pertaining to the
-use of Python, libraries, and idioms. However, it is not right to ask
-direct questions that relate to the assignment and where people will
-actually solve your problem by answering them. You may discuss with your
-fellow students in order to better understand the questions, if they are
-not clear enough, but you should not ask them to share their answers
-with you, or to help you by giving specific advice.
-:::
+<img align="left" src="media/precipitation.svg">
