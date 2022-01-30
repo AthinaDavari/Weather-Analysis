@@ -92,24 +92,3 @@ showing the ratio of rainfall over rainy days over the years. On the
 plot you will overlay the 10 years rolling average. The plot should be
 similar to the one below. What is your interpretation of the plot?
 <img align="left" src="media/precipitation.svg">
-
-## Submission Instructions
-
-You will submit a Jupyter notebook that will contain all your code and
-analysis. Ensure that the notebook will run correctly in a computer that
-is not your own. That means, among other things, that it does not
-contain absolute paths. Remember that a notebook is not a collection of
-code cells thrown together; it should contain as much text as necessary
-for a person to understand what you are doing.
-
-## Honor Code
-
-You understand that this is an individual assignment, and as such you
-must carry it out alone. You may seek help on the Internet, by Googling
-or searching in StackOverflow for general questions pertaining to the
-use of Python, libraries, and idioms. However, it is not right to ask
-direct questions that relate to the assignment and where people will
-actually solve your problem by answering them. You may discuss with your
-fellow students in order to better understand the questions, if they are
-not clear enough, but you should not ask them to share their answers
-with you, or to help you by giving specific advice.
